@@ -1,0 +1,16 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 23.12.1  # Check the latest version
+    hooks:
+      - id: black
+        args: ["--line-length=88"]
+
+  - repo: https://github.com/pycqa/flake8
+    rev: 6.1.0  # Check the latest version
+    hooks:
+      - id: flake8
+
+  - repo: https://github.com/pycqa/pylint
+    rev: v3.0.3  # Check the latest version
+    hooks:
+      - id: pylint
