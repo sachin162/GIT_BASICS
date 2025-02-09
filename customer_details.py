@@ -10,6 +10,6 @@ customer_details = {
     2: {
         "name": "RAKUTEN",
         "deal_duration": "long",
-        "customer_profile": "Gas",
+        "customer_profile": "Telco",
     },
 }
