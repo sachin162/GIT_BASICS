@@ -27,3 +27,12 @@ def get_discount_percentage_based_on_deal_type(deal_type: str):
         discount_precentage = 35
 
     return discount_precentage
+
+
+def get_customer_profile(cust_id: int):
+    """
+
+    :param cust_id:
+    :return:
+    """
+    return customer_details[cust_id]["customer_profile"]
